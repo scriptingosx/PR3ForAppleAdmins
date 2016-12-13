@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>calendar dates for 2017</key>
+	<dict>
+		<key>Chinese New Year</key>
+		<date>2017-01-28T12:00:00Z</date>
+		<key>Gregorian New Year</key>
+		<date>2017-01-01T00:00:00Z</date>
+		<key>Islamic New Year</key>
+		<date>2017-09-22T10:00:00Z</date>
+		<key>Rosh Hashanah</key>
+		<date>2017-09-21T16:00:00Z</date>
+	</dict>
+	<key>colors</key>
+	<array>
+		<string>red</string>
+		<string>orange</string>
+		<string>yellow</string>
+		<string>green</string>
+		<string>indigo</string>
+		<string>blue</string>
+		<string>violet</string>
+	</array>
+	<key>every boolean</key>
+	<array>
+		<false/>
+		<true/>
+	</array>
+	<key>special numbers<key>
+	<dict>
+		<key>Planck length</key>
+		<real>1.6162000000000001e-35</real>
+		<key>answer</key>
+		<integer>42</integer>
+		<key>first number</key>
+		<integer>1</integer>
+		<key>giga</key>
+		<integer>1000000000</integer>
+		<key>negative</key>
+		<integer>-3</integer>
+		<key>one hundreth</key>
+		<real>0.01</real>
+		<key>½</key>
+		<real>0.5</real>
+		<key>𝛕</key>
+		<real>6.2831849999999996</real>
+	</dict>
+</dict>
+</plist>
