@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin name="AutoPkg Recipe" id="com.scriptingsosx.autopkg-recipe-definition" version="1.0" xmlns:plisteditpro="http://www.fatcatsoftware.com/plisteditpro">
+    <extension point="com.apple.xcode.plist.structure-definition" name="AutoPkg Recipe" id="com.scriptingosx.autopkg-recipe-definition">
+        <definition name="_root_" localizedString="AutoPkg Recipe" class="Dictionary" identifyingKey="Identifier">
+            <dictionaryKeys>
+                <key name="Comment" localizedString="Comment" class="String" use="optional"></key>
+                <key name="Description" localizedString="Description" class="String" use="default"></key>
+                <key name="Identifier" localizedString="Identifier" class="String" use="required"></key>
+                <key name="Input" localizedString="Input" class="Input" use="required"></key>
+                <key name="MinimumVersion" localizedString="MinimumVersion" class="String" use="default"></key>
+                <key name="ParentRecipe" localizedString="ParentRecipe" class="String" use="default"></key>
+                <key name="Process" localizedString="Process" class="Process" use="default"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="Input" localizedString="Input" class="Dictionary">
+            <dictionaryKeys>
+                <key name="NAME" localizedString="NAME" class="String" use="default"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="Process" localizedString="Process" class="Array" arrayElementClass="ProcessItem">
+            <arrayEntries>
+                <entry class="ProcessItem"></entry>
+            </arrayEntries>
+        </definition>
+        <definition name="ProcessItem" localizedString="ProcessItem" class="Dictionary" identifyingKey="Processor">
+            <dictionaryKeys>
+                <key name="Arguments" localizedString="Arguments" class="Dictionary" use="default"></key>
+                <key name="Processor" localizedString="Processor" class="String" use="required"></key>
+            </dictionaryKeys>
+        </definition>
+    </extension>
+</plugin>
