@@ -15,14 +15,14 @@ print CFPreferencesCopyValue("idleTime", "com.apple.screensaver", kCFPreferences
 print "Screen Saver: askForPassword = ",
 print CFPreferencesCopyValue("askForPassword", "com.apple.screensaver", kCFPreferencesCurrentUser, kCFPreferencesAnyHost)
 
-# all Users (defaults read /Library/Preferences/)
-print "Login Window: lastUserName = ",
-print CFPreferencesCopyValue("lastUserName", "com.apple.loginwindow", kCFPreferencesAnyUser, kCFPreferencesAnyHost)
-
 # User, global domain
 print "Global Domain: AppleLanguages = ",
 print CFPreferencesCopyValue("AppleLanguages", kCFPreferencesAnyApplication, kCFPreferencesCurrentUser, kCFPreferencesAnyHost)
 
+# all Users (defaults read /Library/Preferences/)
+print "Login Window: lastUserName = ",
+print CFPreferencesCopyValue("lastUserName", "com.apple.loginwindow", kCFPreferencesAnyUser, kCFPreferencesCurrentHost)
+
 # all Users, global 
 print "All Users, Global: AppleLanguages = ",
-print CFPreferencesCopyValue("AppleLanguages", kCFPreferencesAnyApplication, kCFPreferencesAnyUser, kCFPreferencesAnyHost)
+print CFPreferencesCopyValue("AppleLanguages", kCFPreferencesAnyApplication, kCFPreferencesAnyUser, kCFPreferencesCurrentHost)

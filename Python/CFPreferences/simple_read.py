@@ -2,4 +2,4 @@
 
 from Foundation import CFPreferencesCopyAppValue
                        
-print CFPreferencesCopyAppValue("ShowsUserLocation", "com.apple.Maps")
+print CFPreferencesCopyAppValue("idleTime", "com.apple.screensaver")
