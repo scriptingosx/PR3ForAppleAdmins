@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>.GlobalPreferences</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_data_timestamp</key>
+							<date>2016-12-13T10:49:35Z</date>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>AppleICUDateFormatStrings</key>
+								<dict>
+									<key>1</key>
+									<string>y-MM-dd</string>
+								</dict>
+								<key>AppleLanguages</key>
+								<array>
+									<string>en-US</string>
+									<string>de-NL</string>
+									<string>nl-NL</string>
+								</array>
+								<key>AppleLocale</key>
+								<string>en_NL</string>
+								<key>AppleMeasurementUnits</key>
+								<string>Centimeters</string>
+								<key>AppleMetricUnits</key>
+								<true/>
+								<key>AppleTemperatureUnit</key>
+								<string>Celsius</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.a39c9889-eb3e-453e-9864-7f7e699d401e.alacarte.customsettings.6c4d54ad-67ea-4bd2-85c8-e515bb17a7ff</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>6c4d54ad-67ea-4bd2-85c8-e515bb17a7ff</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+NSGlobalDomain
+</string>
+	<key>PayloadDisplayName</key>
+	<string>MCXToProfile: NSGlobalDomain</string>
+	<key>PayloadIdentifier</key>
+	<string>com.scriptingosx.AppleLanguages</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>a39c9889-eb3e-453e-9864-7f7e699d401e</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

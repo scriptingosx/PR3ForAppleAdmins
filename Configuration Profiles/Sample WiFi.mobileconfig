@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>de</key>
+		<string>Konfiguriert die Wi-Fi Einstellungen für das Sample Access Point</string>
+		<key>en</key>
+		<string>Configures the Wi-Fi settings for Sample Access Point</string>
+		<key>fr</key>
+		<string>Configurera les paramètres Wi-Fi pour Sample Access Point</string>
+		<key>nl</key>
+		<string>Zal de Wi-Fi-instellingen voor Sample Access Point configureren</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>Password</key>
+			<string>CLEARTEXTPASSWORD</string>
+			<key>PayloadDescription</key>
+			<string>Configures Wi-Fi settings for Sample Access Point</string>
+			<key>PayloadDisplayName</key>
+			<string>Sample Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.example.profile.wifi.sample</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>AB6CCFF7-8598-4D4A-ACB4-AA6EAD8609C6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>ACCESSPOINTNAME</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Wifi connection for Sample Access Point</string>
+	<key>PayloadDisplayName</key>
+	<string>Sample WiFi</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profile.wifi</string>
+	<key>PayloadOrganization</key>
+	<string>Sample Organization</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>087AB8B5-D24C-48CF-94E9-D762719D8E53</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

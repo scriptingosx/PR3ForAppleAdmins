@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.screensaver</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>loginWindowIdleTime</key>
+								<string>300</string>
+								<key>loginWindowModulePath</key>
+								<string>/System/Library/Frameworks/ScreenSaver.framework/Resources/Computer Name.saver</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Login Window Screen Saver</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.scriptingosx.profile.loginscreensaver.on</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>7FF9B0F3-0D73-4647-83E7-84A5B099BF98</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>LoginWindowScreenSaver</string>
+	<key>PayloadDisplayName</key>
+	<string>Settings for Login Window Screen Saver</string>
+	<key>PayloadIdentifier</key>
+	<string>com.scriptingosx.profile.loginscreensaver</string>
+	<key>PayloadOrganization</key>
+	<string>Scripting OS X</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>D392CF34-CE81-4842-B7AC-3E7DA8263690</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

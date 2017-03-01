@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.screensaver</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>askForPassword</key>
+								<integer>1</integer>
+								<key>askForPasswordDelay</key>
+								<integer>10</integer>
+								<key>idleTime</key>
+								<string>300</string>
+								<key>loginWindowIdleTime</key>
+								<string>300</string>
+								<key>loginWindowModulePath</key>
+								<string>/System/Library/Frameworks/ScreenSaver.framework/Resources/Computer Name.saver</string>
+								<key>moduleDict</key>
+								<dict>
+									<key>path</key>
+									<string>/System/Library/Frameworks/ScreenSaver.framework/Resources/Computer Name.saver</string>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (com.apple.screensaver)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.scriptingosx.profile.screensaver.onAndLocked</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>207B3EC4-86D2-4DDD-8C1E-40AE1F1C2B4C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Enforces Screen Saver and Screen Lock</string>
+	<key>PayloadDisplayName</key>
+	<string>Settings for Screen Saver and Lock</string>
+	<key>PayloadIdentifier</key>
+	<string>com.scriptingosx.profile.screensaver.on</string>
+	<key>PayloadOrganization</key>
+	<string>Scripting OS X</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>c1278f80-dc0c-0134-a066-685b35ac7fe0</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
