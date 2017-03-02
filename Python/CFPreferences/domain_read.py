@@ -23,6 +23,6 @@ print CFPreferencesCopyValue("AppleLanguages", kCFPreferencesAnyApplication, kCF
 print "Login Window: lastUserName = ",
 print CFPreferencesCopyValue("lastUserName", "com.apple.loginwindow", kCFPreferencesAnyUser, kCFPreferencesCurrentHost)
 
-# all Users, global 
+# all Users, global
 print "All Users, Global: AppleLanguages = ",
 print CFPreferencesCopyValue("AppleLanguages", kCFPreferencesAnyApplication, kCFPreferencesAnyUser, kCFPreferencesCurrentHost)
