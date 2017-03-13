@@ -46,6 +46,8 @@
 		<real>0.5</real>
 		<key>𝛕</key>
 		<real>6.283185</real>
+		<key>π</key>
+		<real>3.141592</real>
 	</dict>
 </dict>
 </plist>
