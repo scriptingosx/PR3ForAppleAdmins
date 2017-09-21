@@ -1,4 +1,4 @@
-#!/usr/bin/swift
+#!/usr/bin/swift -swift-version 3
 
 import Foundation
 
@@ -7,7 +7,7 @@ let samplePath = "../examples"
 
 let dictPath = "\(samplePath)/berry.plist"
 // casting to [String: AnyObject] ist not mandatory but probably safer
-if let sampleDict = NSDictionary(contentsOfFile: dictPath) as? [String: AnyObject] {
+if let sampleDict = NSDictionary(contentsOfFile: dictPath) {
     for (key, value) in sampleDict {
         print("\(key) = \(value)")
     }
@@ -20,7 +20,7 @@ print()
 // replace this with your path to the sample files
 let arrayPath = "\(samplePath)/list.plist"
 // casting to [AnyObject] ist not mandatory but probably safer
-if let sampleArray = NSArray(contentsOfFile: arrayPath) as? [AnyObject] {
+if let sampleArray = NSArray(contentsOfFile: arrayPath) {
     for (index, value) in sampleArray.enumerated() {
         print("\(index): \(value)")
     }
